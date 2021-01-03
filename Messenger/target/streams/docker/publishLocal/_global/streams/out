@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t akkahttp-quickstart:0.3 .[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory C:\Users\ЖАНДОС\Desktop\BackEnd\HighLoadBackend\AddressBook\target\docker\stage[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon   37.7MB[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 1/6 : FROM openjdk:8-jre-alpine[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> f7a292bbb70c[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 2/6 : WORKDIR /opt/docker[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> c45706b04e4a[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 3/6 : ADD --chown=daemon:daemon opt /opt[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 8b74cd0ef641[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 4/6 : USER daemon[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 58e000eba359[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 58e000eba359[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 1b608396ae20[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 5/6 : ENTRYPOINT ["/opt/docker/bin/addressbook"][0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 3dc902301cbd[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 3dc902301cbd[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 4f96de5ccbaa[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 6/6 : CMD [][0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in bd681fc9090e[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container bd681fc9090e[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 0bf20d7dd472[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 0bf20d7dd472[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged akkahttp-quickstart:0.3[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. All files and directories added to build context will have '-rwxr-xr-x' permissions. It is recommended to double check and reset permissions for sensitive files and directories.[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mBuilt image akkahttp-quickstart with tags [0.3][0m[0J
